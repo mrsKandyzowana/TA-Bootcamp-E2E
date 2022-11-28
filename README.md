@@ -4,7 +4,7 @@ Hometask
 #To run test:
 *Clone repository
 *Run npm install
-*Run yarn wdio
+*Run yarn wdio or run npm run wdio
 
 ---------------------
 --------------------
