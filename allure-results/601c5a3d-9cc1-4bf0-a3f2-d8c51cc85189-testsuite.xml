@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669667136911' stop='1669667140747'>
+    <name>Bootcamp E2E: Search bar</name>
+    <title>Bootcamp E2E: Search bar</title>
+    <test-cases>
+        <test-case start='1669667136913' status='passed' stop='1669667136916'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669667136917' status='passed' stop='1669667140738'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669667136923' status='passed' stop='1669667140736'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a7e112a0-deed-477d-9f26-363995bd43be-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669667140738' status='broken' stop='1669667140743'>
+            <name>And Close the promobanner if it appears by refreshing page</name>
+            <title>And Close the promobanner if it appears by refreshing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669667140740' status='broken' stop='1669667140743'>
+                    <name>DELETE /session/:sessionId</name>
+                    <title>DELETE /session/:sessionId</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                to use the callback interface: do not return a promise
+                to use the promise interface: remove the last argument to the function
+                    at Object.run (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\user_code_runner.js:35:24)
+                    at Object.run (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:52:59)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async TestCaseRunner.invokeStep (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:237:26)
+                    at async C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:163:48
+                    at async TestCaseRunner.aroundTestStep (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:117:32)
+                    at async TestCaseRunner.run (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:146:17)
+                    at async Runtime.runTestCase (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\index.js:41:24)
+                    at async Runtime.start (C:\Users\pauli\OneDrive\Pulpit\evolutionQA\lastHO\node_modules\@cucumber\cucumber\lib\runtime\index.js:65:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669667140743' status='pending' stop='1669667140744'>
+            <name>When I enter the word 'Windows' in the search bar</name>
+            <title>When I enter the word 'Windows' in the search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669667140744' status='pending' stop='1669667140744'>
+            <name>And I click the search</name>
+            <title>And I click the search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669667140745' status='pending' stop='1669667140745'>
+            <name>Then I Check that at least one item appears</name>
+            <title>Then I Check that at least one item appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669667140745' status='passed' stop='1669667140746'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
